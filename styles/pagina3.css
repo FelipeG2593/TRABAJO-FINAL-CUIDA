@@ -60,7 +60,6 @@ main {
     width: 100%;
 }
 .caja-imagen{
-    border: solid red;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -83,7 +82,6 @@ main {
 }
 
 .formulario-texto {
-    border: solid purple;
     position: relative;
     top:-360px;
     left:295px ;
