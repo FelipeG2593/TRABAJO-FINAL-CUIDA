@@ -142,13 +142,50 @@ footer img {
 }
 
 @media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.2rem;
+    }
+
     .menu {
         flex-direction: column;
         gap: 10px;
     }
 
+    .miBoton {
+        padding: 10px 15px;
+    }
+
+    .registro-texto {
+        width: 90%;
+        top: 45%;
+        left: 50%;
+        font-size: 0.8rem;
+    }
+
+    .registro h1 {
+        font-size: 1.5rem;
+    }
+
+    .registro p {
+        font-size: 0.9rem;
+    }
+
     .planes {
         grid-template-columns: 1fr;
+    }
+
+    .plan h2 {
+        font-size: 1.5rem;
+    }
+
+    .plan p {
+        font-size: 0.875rem;
+    }
+
+    .plan ul li {
+        font-size: 0.875rem;
     }
 
     .plan-corporativo {
@@ -157,5 +194,46 @@ footer img {
 
     li {
         padding-left: 10px;
+    }
+
+    footer img {
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        font-size: 1rem;
+    }
+
+    .registro h1 {
+        font-size: 1.25rem;
+    }
+
+    .registro p {
+        font-size: 0.8rem;
+    }
+
+    .plan h2 {
+        font-size: 1.25rem;
+    }
+
+    .plan p {
+        font-size: 0.75rem;
+    }
+
+    .plan ul li {
+        font-size: 0.75rem;
+    }
+
+    .registro-texto {
+        top: 40%;
+        left: 50%;
+        width: 95%;
+    }
+
+    header img {
+        width: 90px;
+        height: 100px;
     }
 }

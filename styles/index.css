@@ -191,20 +191,101 @@ footer img{
 
 
 @media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.2rem;
+    }
+
     .menu {
         flex-direction: column;
         gap: 10px;
     }
 
-    .planes {
-        grid-template-columns: 1fr;
+    .miBoton {
+        padding: 10px 15px;
+        font-size: 1.2rem;
     }
 
-    .plan-corporativo {
-        grid-column: auto;
+    .imgFrontal {
+        padding: 20px 10px;
+        flex-direction: column;
     }
 
-    li {
-        padding-left: 10px;
+    .contenedorTitulo {
+        margin-top: 10px;
+    }
+
+    .tituloPrincipal {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    .cajaMision {
+        font-size: 1.2rem;
+    }
+
+    .cajaMetodologia h2 {
+        font-size: 1.5rem;
+    }
+
+    .carta {
+        width: calc(100% - 20px);
+        max-width: 300px;
+    }
+
+    .carta img {
+        margin-top: 20px;
+    }
+
+    .carta h3 {
+        margin-top: 10px;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        font-size: 1rem;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .miBoton {
+        padding: 8px 12px;
+        font-size: 1rem;
+    }
+
+    .imgFrontal {
+        padding: 10px 5px;
+    }
+
+    .tituloPrincipal {
+        font-size: 1.2rem;
+    }
+
+    .cajaMision {
+        font-size: 1rem;
+    }
+
+    .cajaMetodologia h2 {
+        font-size: 1.2rem;
+    }
+
+    .carta {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .carta h3 {
+        font-size: 1rem;
+    }
+
+    header img {
+        width: 90px;
+        height: 100px;
     }
 }

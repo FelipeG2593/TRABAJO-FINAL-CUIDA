@@ -110,20 +110,55 @@ footer img {
 }
 
 @media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.2rem;
+    }
+
     .menu {
         flex-direction: column;
         gap: 10px;
     }
 
-    .planes {
-        grid-template-columns: 1fr;
+    .miBoton {
+        padding: 10px 15px;
     }
 
-    .plan-corporativo {
-        grid-column: auto;
+    .quienes-somos h1 {
+        font-size: 1.5rem;
     }
 
-    li {
-        padding-left: 10px;
+    .quienes-somos p {
+        font-size: 0.875rem;
+    }
+
+    .foto1, .foto2 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        font-size: 1rem;
+    }
+
+    .quienes-somos h1 {
+        font-size: 1.25rem;
+    }
+
+    .quienes-somos p {
+        font-size: 0.75rem;
+    }
+
+    .miBoton {
+        padding: 8px 12px;
+        font-size: 0.875rem;
+    }
+
+    header img {
+        width: 90px;
+        height: 100px;
     }
 }

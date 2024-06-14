@@ -156,22 +156,43 @@ footer img {
     height: 620px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.134);
 }
-
 @media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.2rem;
+    }
+
     .menu {
         flex-direction: column;
         gap: 10px;
     }
 
-    .planes {
-        grid-template-columns: 1fr;
+    .miBoton {
+        padding: 10px 15px;
     }
 
-    .plan-corporativo {
-        grid-column: auto;
+    .formulario-texto {
+        width: 90%;
+        top: 45%;
+        left: 50%;
+        font-size: 0.8rem;
     }
 
-    li {
-        padding-left: 10px;
+    .formulario h1 {
+        font-size: 1.5rem;
+    }
+
+    .formulario p {
+        font-size: 0.9rem;
+    }
+
+    .formulario h2 {
+        font-size: 1.5rem;
+    }
+
+    .formulario button {
+        font-size: 1rem;
+        padding: 10px;
     }
 }
