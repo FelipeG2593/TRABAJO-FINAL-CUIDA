@@ -1,140 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Felipe Garcia Montaño" />
-    <meta
-      name="description"
-      content="Pagina web que habla sobre el cuidado que debemos tener para salvar nuestro mundo de la crísi climática que
-    podemos llegar si sobrepasamos los 1.5 grados estipulados en la convencíon de parís"
-    />
-    <meta
-      name="keywords"
-      content="Reforestación, sostenibilidad, energías limpias, Calentamiento Global"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./styles/index.css" />
-    <link rel="shorcut icon" href="./assets/favicon.ico" />
-    <title>Cuida</title>
-  </head>
-  <body>
-    <!---------------------------Header---------------------------------------->
-    <header>
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand ms-5" href="#">
-            <img
-              src="./assets/Recurso 1frontal1.2.png"
-              alt="Cuida"
-              width="110"
-              height="120"
-            />
-          </a>
+<html lang="es">
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 miLista">
-              <li class="nav-item fs-4">
-                <a
-                  class="nav-link active text-success"
-                  aria-current="page"
-                  href="#"
-                  >Quienes somos</a
-                >
-              </li>
-              <li class="nav-item fs-4">
-                <a class="nav-link text-success" href="#">Suscripciones</a>
-              </li>
-              <li class="nav-item fs-4">
-                <a
-                  class="nav-link text-success"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Contácto
-                </a>
-              </li>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Felipe Garcia Montaño" />
+  <meta name="description" content="Pagina web que habla sobre el cuidado que debemos tener para salvar nuestro mundo de la crísi climática que
+    podemos llegar si sobrepasamos los 1.5 grados estipulados en la convencíon de parís" />
+  <meta name="keywords" content="Reforestación, sostenibilidad, energías limpias, Calentamiento Global" />
+  <link rel="stylesheet" href="./styles/index.css" />
+  <title>Cuida</title>
+</head>
 
-              <li class="nav-item fs-4 pe-2 itemDonaciones">
-                <a class="nav-link miBoton" href="#">Donaciones</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <!-----------------------------------inicion main------------------------------------>
-    <main>
-      <div>
-        <h1 class="tituloPrincipal">Salvémos Nuestro <br />Planeta Juntos</h1>
-        <img
-          class="imagenPrincipal"
-          src="./assets/Recurso 1PRINCIPAL_TOTAL.png"
-        />
-        <a class="miBoton2">Únete ahora</a>
+<body>
+  <!----------------------inicio header--------------------------------->
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="./index.html"><img src="./assets/Recurso 1frontal1.2.png" alt="Logo" /></a>
       </div>
+      <div>
+        <ul class="menu">
+          <li><a href="./pagina1.html">Quienes somos</a></li>
+          <li><a href="./pagina2.html">Suscripciones</a></li>
+          <li><a href="./pagina3.html">Contacto</a></li>
+        </ul>
+      </div>
+      <a href="#" class="miBoton">Donaciones</a></li>
+    </nav>
+  </header>
+  <!-----------------------inicio main--------------------------------->
+  <main>
 
-      <article>
-        <div class="Mision">
-          <h3>nuestra misión</h3>
-          <p>
-            Buscamos inspirar a las personas para proteger y preservar nuestro
-            planeta. informamos sobre las causas y consecuencias del deterioro
-            ambiental, promoviendo soluciones sostenibles.Creemos que cada
-            esfuerzo cuenta y juntos podemos construir un futuro más verde y
-            saludable.
-          </p>
+    <section class="imgFrontal">
+      <img src="./assets/Recurso 1PRINCIPAL_TOTAL.png" />
+      <div class="contenedorTitulo">
+        <div class="contenedorH1">
+          <h1 class="tituloPrincipal">Salvémos Nuestro <br>Planeta Juntos </h1>
+          <span class="lineaVerde"></span>
         </div>
-        <div class="tarjeta">
-          <figure>
-            <img src="." />
-          </figure>
-          <div class="contenido">
-            <h3>Programa de reforestacíon y restauración de ecosistemas</h3>
-            <a href="#">Ver contenido</a>
-          </div>
+        
+        <button class="botonFrontal">Únete ahora</button>
+      </div>
+    </section>
+
+
+    <section class="cajaMision">
+      <h2>Nuestra misión</h2>
+      <p>
+        Buscamos inspirar y empoderar a las personas para proteger y preservar
+        nuestro planeta. Informamos sobre las causas y consecuencias del
+        deterioro ambiental, promoviendo soluciones sostenibles. Creemos que
+        cada esfuerzo cuenta y juntos podemos construir un futuro más verde y
+        saludable.
+      </p>
+    </section>
+
+    <section class="cajaMetodologia">
+      <h2>Metodología De Intervención</h2>
+      <div class="cajaCartas">
+        <div class="carta">
+          <img src="./assets/cartas/reforestacion (1).png" alt="Reforestación" />
+          <h3>Programa de reforestación y restauración de ecosistemas</h3>
         </div>
-        <div class="tarjeta">
-          <figure>
-            <img src="." />
-          </figure>
-          <div class="contenido">
-            <h3>Soluciones de energías limpias</h3>
-            <a href="#">Ver contenido</a>
-          </div>
+        <div class="carta">
+          <img src="./assets/cartas/limpio (1).png" alt="Energías Limpias" />
+          <h3>Soluciones de energías limpias</h3>
         </div>
-        <div class="tarjeta">
-          <figure>
-            <img src="." />
-          </figure>
-          <div class="contenido">
-            <h3>Consultoría ambiental y sostenibilidad corporativa</h3>
-            <a href="#">Ver contenido</a>
-          </div>
+        <div class="carta">
+          <img src="./assets/cartas/sostenible (1).png" alt="Consultoría" />
+          <h3>Consultoría ambiental y sostenibilidad corporativa</h3>
         </div>
-        <div class="tarjeta">
-          <figure>
-            <img src="." />
-          </figure>
-          <div class="contenido">
-            <h3>Educaciíon y concienciación ambiental</h3>
-            <a href="#">Ver contenido</a>
-          </div>
+        <div class="carta carta-educacion">
+          <img src="./assets/cartas/libro (1).png" alt="Educación" />
+          <h3>Educación y concienciación ambiental</h3>
         </div>
-      </article>
-    </main>
-    <footer></footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      </div>
+    </section>
+  </main>
+  <!-------------------------------inicio footer------------------------>
+  <footer>
+    <img src="./assets/footer/FOOTER.jpg" alt="imagenfooter">
+    <p>
+      &copy; 2024 Cuida. Todos los derechos reservados.
+    </p>
+  </footer>
+</body>
+
 </html>
