@@ -113,7 +113,7 @@ footer img {
     nav {
         flex-direction: column;
         align-items: center;
-        font-size: 1.2rem;
+        font-size: 19.2px; 
     }
 
     .menu {
@@ -126,11 +126,11 @@ footer img {
     }
 
     .quienes-somos h1 {
-        font-size: 1.5rem;
+        font-size: 24px; 
     }
 
     .quienes-somos p {
-        font-size: 0.875rem;
+        font-size: 14px; 
     }
 
     .foto1, .foto2 {
@@ -141,20 +141,20 @@ footer img {
 
 @media (max-width: 480px) {
     nav {
-        font-size: 1rem;
+        font-size: 16px; 
     }
 
     .quienes-somos h1 {
-        font-size: 1.25rem;
+        font-size: 20px; 
     }
 
     .quienes-somos p {
-        font-size: 0.75rem;
+        font-size: 12px; 
     }
 
     .miBoton {
         padding: 8px 12px;
-        font-size: 0.875rem;
+        font-size: 14px; 
     }
 
     header img {

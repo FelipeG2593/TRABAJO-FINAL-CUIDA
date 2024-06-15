@@ -145,7 +145,7 @@ footer img {
     nav {
         flex-direction: column;
         align-items: center;
-        font-size: 1.2rem;
+        font-size: 19.2px; 
     }
 
     .menu {
@@ -161,15 +161,15 @@ footer img {
         width: 90%;
         top: 45%;
         left: 50%;
-        font-size: 0.8rem;
+        font-size: 12.8px; 
     }
 
     .registro h1 {
-        font-size: 1.5rem;
+        font-size: 24px; 
     }
 
     .registro p {
-        font-size: 0.9rem;
+        font-size: 14.4px; 
     }
 
     .planes {
@@ -177,15 +177,15 @@ footer img {
     }
 
     .plan h2 {
-        font-size: 1.5rem;
+        font-size: 24px; 
     }
 
     .plan p {
-        font-size: 0.875rem;
+        font-size: 14px; 
     }
 
     .plan ul li {
-        font-size: 0.875rem;
+        font-size: 14px; 
     }
 
     .plan-corporativo {
@@ -203,27 +203,27 @@ footer img {
 
 @media (max-width: 480px) {
     nav {
-        font-size: 1rem;
+        font-size: 16px; 
     }
 
     .registro h1 {
-        font-size: 1.25rem;
+        font-size: 20px; 
     }
 
     .registro p {
-        font-size: 0.8rem;
+        font-size: 12.8px; 
     }
 
     .plan h2 {
-        font-size: 1.25rem;
+        font-size: 20px; 
     }
 
     .plan p {
-        font-size: 0.75rem;
+        font-size: 12px; 
     }
 
     .plan ul li {
-        font-size: 0.75rem;
+        font-size: 12px; 
     }
 
     .registro-texto {
